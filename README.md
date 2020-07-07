@@ -1,0 +1,3 @@
+# pwsh
+
+My PowerShell files.
