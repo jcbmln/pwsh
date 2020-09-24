@@ -12,7 +12,7 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://cho
 choco install -y git
 choco install -y firacode
 
-Install-Module -Scope CurrentUser posh-git 
-Install-Module -Scope CurrentUser Get-ChildItemColor
+Install-Module -Scope CurrentUser -AllowPrerelease posh-git
+Install-Module -Scope CurrentUser -AllowPrerelease Get-ChildItemColor
 
 
