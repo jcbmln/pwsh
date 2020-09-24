@@ -15,4 +15,4 @@ choco install -y firacode
 Install-Module -Scope CurrentUser posh-git 
 Install-Module -Scope CurrentUser Get-ChildItemColor
 
-
+Install-Script -Scope CurrentUser posh-winfetch
