@@ -4,6 +4,7 @@ Import-Module Get-ChildItemColor
 . "$PSScriptRoot\functions.ps1"
 . "$PSScriptRoot\aliases.ps1"
 . "$PSScriptRoot\psreadline.ps1"
+. "$PSScriptRoot\Scripts\posh-winfetch.ps1"
 
 $GitPromptSettings.DefaultPromptAbbreviateHomeDirectory = $true
 $GitPromptSettings.DefaultPromptPath.ForegroundColor = [ConsoleColor]::Magenta
