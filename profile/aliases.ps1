@@ -8,5 +8,3 @@ ${function:pwshup} = { Invoke-Expression "& { $(Invoke-RestMethod https://aka.ms
 
 Set-Alias ls Get-ChildItem -option AllScope
 Set-Alias lls Get-ChildItemColorFormatWide -option AllScope
-
-Set-Alias mkdir CreateAndSet-Directory
